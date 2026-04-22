@@ -25,7 +25,7 @@ import com.example.tresenraya.ui.theme.TresEnRayaTheme
              TresEnRayaTheme() {
                  Surface(color = MaterialTheme.colorScheme.background) {
                      AppNavigation()
-                     //Esto es un comentario que aporta muchisimo al codigo DMIC-GIT-POL
+                     //He modificado este comentario desde la rama1DMIC
                  }
              }
          }
