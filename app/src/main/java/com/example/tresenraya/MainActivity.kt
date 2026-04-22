@@ -20,6 +20,7 @@ import com.example.tresenraya.ui.theme.TresEnRayaTheme
      override fun onCreate(savedInstanceState: Bundle?) {
          super.onCreate(savedInstanceState)
          //Hace que empieze la aplicacion xd
+         //Comentario hecho desde la pagina web de GITHUB
          setContent {
              TresEnRayaTheme() {
                  Surface(color = MaterialTheme.colorScheme.background) {
