@@ -25,7 +25,7 @@ class GameViewModel(val isPvP: Boolean, val p1: String, val p2: String) : ViewMo
                 if (board.none { it.isEmpty() }) {
                     isDraw = true
                 } else {
-                    isPlayer1Turn = !isPlayer1Turn
+                    //isPlayer1Turn = !isPlayer1Turn
                     if (!isPvP && !isPlayer1Turn) cpuMove()
                 }
             }
@@ -55,7 +55,7 @@ class GameViewModel(val isPvP: Boolean, val p1: String, val p2: String) : ViewMo
         for (line in lines) {
             if (board[line[0]].isNotEmpty() && board[line[0]] == board[line[1]] && board[line[0]] == board[line[2]]) {
                 winner = if (board[line[0]] == "X") p1 else p2
-                return false
+                return true
             }
         }
         return false
