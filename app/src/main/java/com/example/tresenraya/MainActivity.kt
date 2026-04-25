@@ -25,7 +25,7 @@ import com.example.tresenraya.ui.theme.TresEnRayaTheme
              TresEnRayaTheme() {
                  Surface(color = MaterialTheme.colorScheme.background) {
                      AppNavigation()
-                     //He modificado este comentario desde la rama1DMIC
+                     //comentario modificado
                  }
              }
          }
