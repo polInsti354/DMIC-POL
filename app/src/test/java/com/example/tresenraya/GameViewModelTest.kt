@@ -31,7 +31,7 @@ class GameViewModelTest {
         // X O X
         // X O O
         // O X _
-        val movimientos = listOf(0, 1, 1, 4, 3, 5, 7, 6)
+        val movimientos = listOf(0, 1, 2, 4, 3, 5, 7, 6)
         movimientos.forEach { viewModel.onMove(it) }
 
         // El último movimiento (posición 8)
